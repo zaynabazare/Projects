@@ -1,0 +1,124 @@
+.body {
+    background-color: white;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.block1 {
+    background-color: gray;
+    display: flex;
+    
+}
+.Head {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    padding: 3%;
+    font-weight: bolder;
+    font-size: large
+
+}
+.topnavigations{
+    justify-content: space-between;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-items: center;
+
+}
+.nav1 , .nav2 , .nav3 {
+    font-weight: lighter;
+    padding: 5%;
+    font-size: smaller;
+}
+.block2 {
+    justify-content: space-between;
+    display: flex;
+    height: 350px;
+}
+
+.A {
+    background-color: rgb(62, 61, 61);
+    display: flex;
+    width: 30%;
+    margin-right: 7px;
+}
+.sidenavigation {
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+}
+.sidenav1 , .sidenav2 , .sidenav3 {
+    font-size: smaller;
+    font-weight: lighter;
+    padding: 10%;
+}
+
+.B{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.B1 {
+    background-color: rgb(4, 226, 4);
+    color: black;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    display: flex;
+    margin-top: 7px;
+    Height: 40%;
+}
+.B21 , .B22 , .B23 , .B3 , .block3 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+.B2{
+    justify-content: space-between;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 25%;
+    font-weight: bold;
+    font-family: cursive ;
+     
+}
+.B21{
+    background-color: gray;
+    margin-right: 10px;
+    width: 30%;
+    border-radius: 10px;
+
+
+}
+.B22{
+    background-color: gray;
+    margin-right: 10px;
+    width: 30%;
+    border-radius: 10px;
+    
+}
+.B23{
+    background-color: gray;
+    width: 30%;
+    border: radius 5px;
+    border-radius: 10px;
+}
+.B3{
+    background-color: gray;
+    display: flex;
+    Height: 40%;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+.block3{
+    background-color: black;
+    display: flex;
+    padding: 3%;
+    font-size: x-small;
+    font-weight: lighter;
+}
