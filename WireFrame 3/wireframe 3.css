@@ -1,0 +1,107 @@
+.body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     margin: 0px;
+}
+.line1{
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 2%;
+    
+}
+.top{
+    width: 35%;
+    font-weight: bold;
+    font-size: x-large;
+
+}
+.topnav{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-weight: lighter;
+    font-size: small;
+}
+.topnav1 , .topnav2 , .topnav3 , .topnav4 {
+    padding: 1% 3%;
+}
+.topnav4{
+    background-color: rgb(3, 128, 3);
+    color: white;
+    border-radius: 20px;
+}
+.line2{
+    background-color: rgb(222, 222, 222);
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+.line3{
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    font-size: smaller;
+    padding: 1%;
+}
+.line4{
+    height: 115px;
+    background-color: rgb(222, 222, 222);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center ;
+}
+.circle{
+    display: flex;
+    height: 75px;
+    justify-content: center;
+    width: 100%;
+}
+.circle1 ,.circle3 , .circle5 {
+    background-color: rgb(10, 97, 10);
+    padding: 40px;
+    border-radius: 100%;
+}
+.circle2 , .circle4 {
+    background-color: gray;
+    padding: 40px;
+    border-radius: 100%;
+}
+.line5{
+    background-color: rgb(75, 75, 75);
+    color: white;
+    display: flex;
+    padding: 2%;
+}
+.buttom{
+    width: 70%;
+}
+.buttom , .buttomnav{
+    display: flex;
+    align-items: center;
+    padding: 2%;
+}
+.buttomnav{
+    width: 30%;
+}
+.side{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.buttomimage{
+    display: flex;
+    align-items: center;
+}
