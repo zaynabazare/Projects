@@ -35,7 +35,7 @@
 }
 .line2{
     background-color: rgb(222, 222, 222);
-    height: 170px;
+    height: 270px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -65,9 +65,10 @@
 }
 .circle{
     display: flex;
-    height: 75px;
+   
     justify-content: center;
-    width: 100%;
+    
+    margin: -10px;
 }
 .circle1 ,.circle3 , .circle5 {
     background-color: rgb(10, 97, 10);
