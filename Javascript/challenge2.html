@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       var score = prompt("Enter Score to know grade: ");
+       function grade(score){
+        let x;
+        if (score>=70 && score<=100){
+            x= "Grade is A";
+        }
+        else if (score>=60 && score<70){
+            x= "Grade is B";
+        }
+        else if (score>=50 && score<60 ){
+            x= "Grade is C";
+        }
+        else if (score>=40 && score<50){
+            x= "Grade is D";
+        }
+        else if (score>=0  && score<40){
+            x= "Grade is F";
+        }
+        else{
+            x= "Invalid score!!"; 
+        }
+        
+        return x;
+       }
+       //alert(grade(score));
+       
+       document.write("<h1>For "+ score + " marks, " + grade(score)+ " . </h1>")
+    </script>
+</body>
+</html>
