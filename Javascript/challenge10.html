@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>challenge 10 - Cat Clicker</title>
+</head>
+<body>
+    <img src="pics/cat.jpg" alt="cat"><br>
+    <button id="button" style="background-color: aqua; border-radius: 20px;
+    padding: 10px; border-style: none;"> click to pet </button>
+    <p id="pet"></p>
+    <script>
+        //store cat image in a variable
+        var catImage = document.getElementsByTagName("img")
+        //Define a callback function
+        function catResponse(){
+            document.getElementById("pet").innerHTML = " 'Meow Meow'"
+        }
+        //Assign function as event listener
+        document.getElementById("button").addEventListener("click" , catResponse)
+    </script>
+</body>
+</html>

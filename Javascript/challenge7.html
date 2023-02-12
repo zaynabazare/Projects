@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 7 - Query Modernizer</title>
+</head>
+<body>
+    <!-- Change all doth to does-->
+    <span class="doth">doth </span><br>
+    <span class="doth">doth</span><br>
+    <span class="doth">doth </span><br>
+    <span class="doth">doth</span><br>
+    <br>
+    <button type="button" onclick="let i = changer;
+    for (i=0 ; i<changer.length ; i++){
+     changer[i].innerHTML = 'Does'}" 
+     style="border-style: none; background-color: aqua ;
+     border-radius: 20px; padding: 20px;"> Switch to NewEnglish</button>
+    
+</body>
+    <script>
+       var changer = document.querySelectorAll(".doth") 
+       console.log(changer)
+    </script>
+</html>

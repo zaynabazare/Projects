@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 8 - Avatar Attribute</title>
+    <link rel="stylesheet" href="challenge8.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <th> <img class="tooltip" title="Cat" src="pics/cat.jpg" alt=" Black and Gray Cat" height="100px"></th>
+            <th> A Cat ; <br> <i>Kingdom: Mammalia</i></th>
+        </tr>
+        <tr>
+            <th><img class="tooltip" title="Puppy"src="pics/dog.jpg" alt="Puppy in the garden" height="100px"></th>
+            <th> A Dog; <br> <i>Kingdom: Mammalia</i></th>
+        </tr>
+        <tr>
+            <th> <img  class="tooltip"title="RainbowFish" src="pics/fishh.jpg" alt=" RainbowFish" height="100px"></th>
+            <th> A fish ; <br> <i>Kingdom: Pisces</i></th>
+        </tr>
+    </table> <br>
+    <!--Change images Height-->
+    <button type="button" onclick=" let i = images;
+    for(i=0; i<images.length;i++){
+        images[i].style.height ='170px'
+    }" 
+     style="border-style: none; background-color: aqua ;
+     border-radius: 20px; padding: 20px;"> Tap to Increase Height</button>
+</body>
+<script>
+    // Tooltip on Hover
+    var images = document.getElementsByTagName("img")
+    for(i=0; i<images.length;i++){
+        images[i].title =  images[i].alt
+    }
+    
+</script>
+</html>
