@@ -13,15 +13,19 @@
     <span class="doth">doth </span><br>
     <span class="doth">doth</span><br>
     <br>
-    <button type="button" onclick="let i = changer;
-    for (i=0 ; i<changer.length ; i++){
-     changer[i].innerHTML = 'Does'}" 
+    <button type="button" onclick="button()" 
      style="border-style: none; background-color: aqua ;
      border-radius: 20px; padding: 20px;"> Switch to NewEnglish</button>
+
     
 </body>
     <script>
        var changer = document.querySelectorAll(".doth") 
+       function button(){
+        let i = changer;
+            for (i=0 ; i<changer.length ; i++){
+                changer[i].innerHTML = 'Does'}
+       }
        console.log(changer)
     </script>
 </html>

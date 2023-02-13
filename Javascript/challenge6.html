@@ -12,17 +12,19 @@
         <h1>Hafsa</h1>
         <h1>Khalil</h1>
         <h1>Ibrahim</h1>
+
+        <button type="button" onclick="button()"> Try it </button>
     </div>
     <script>
         var names = document.getElementsByTagName("h1")
-        names.innerHTML = "Hello Computer Scientist"
         console.log(names)
+        function button(){
         let i = names
         for(i=0; i<names.length; i++ ){
-            console.log(names[i])
+            console.log(names[i].innerHTML = "Hello Computer Scientist")
             
         }
-
+    }
 
         
     </script>
