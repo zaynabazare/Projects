@@ -1,0 +1,15 @@
+C:\Users\USER\Desktop\Practicals\Projects\Arrays\orderofID\obj\Debug\net7.0\orderofID.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Practicals\Projects\Arrays\orderofID\obj\Debug\net7.0\orderofID.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\Practicals\Projects\Arrays\orderofID\obj\Debug\net7.0\orderofID.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\Practicals\Projects\Arrays\orderofID\obj\Debug\net7.0\orderofID.AssemblyInfo.cs
+C:\Users\USER\Desktop\Practicals\Projects\Arrays\orderofID\obj\Debug\net7.0\orderofID.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Practicals\Projects\Arrays\orderofID\bin\Debug\net7.0\orderofID.exe
+C:\Users\USER\Desktop\Practicals\Projects\Arrays\orderofID\bin\Debug\net7.0\orderofID.deps.json
+C:\Users\USER\Desktop\Practicals\Projects\Arrays\orderofID\bin\Debug\net7.0\orderofID.runtimeconfig.json
+C:\Users\USER\Desktop\Practicals\Projects\Arrays\orderofID\bin\Debug\net7.0\orderofID.dll
+C:\Users\USER\Desktop\Practicals\Projects\Arrays\orderofID\bin\Debug\net7.0\orderofID.pdb
+C:\Users\USER\Desktop\Practicals\Projects\Arrays\orderofID\obj\Debug\net7.0\orderofID.dll
+C:\Users\USER\Desktop\Practicals\Projects\Arrays\orderofID\obj\Debug\net7.0\refint\orderofID.dll
+C:\Users\USER\Desktop\Practicals\Projects\Arrays\orderofID\obj\Debug\net7.0\orderofID.pdb
+C:\Users\USER\Desktop\Practicals\Projects\Arrays\orderofID\obj\Debug\net7.0\orderofID.genruntimeconfig.cache
+C:\Users\USER\Desktop\Practicals\Projects\Arrays\orderofID\obj\Debug\net7.0\ref\orderofID.dll

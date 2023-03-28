@@ -1,0 +1,15 @@
+C:\Users\USER\Desktop\Practicals\Projects\Renewalrate\Improvement\bin\Debug\net7.0\Improvement.exe
+C:\Users\USER\Desktop\Practicals\Projects\Renewalrate\Improvement\bin\Debug\net7.0\Improvement.deps.json
+C:\Users\USER\Desktop\Practicals\Projects\Renewalrate\Improvement\bin\Debug\net7.0\Improvement.runtimeconfig.json
+C:\Users\USER\Desktop\Practicals\Projects\Renewalrate\Improvement\bin\Debug\net7.0\Improvement.dll
+C:\Users\USER\Desktop\Practicals\Projects\Renewalrate\Improvement\bin\Debug\net7.0\Improvement.pdb
+C:\Users\USER\Desktop\Practicals\Projects\Renewalrate\Improvement\obj\Debug\net7.0\Improvement.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Practicals\Projects\Renewalrate\Improvement\obj\Debug\net7.0\Improvement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\Practicals\Projects\Renewalrate\Improvement\obj\Debug\net7.0\Improvement.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\Practicals\Projects\Renewalrate\Improvement\obj\Debug\net7.0\Improvement.AssemblyInfo.cs
+C:\Users\USER\Desktop\Practicals\Projects\Renewalrate\Improvement\obj\Debug\net7.0\Improvement.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Practicals\Projects\Renewalrate\Improvement\obj\Debug\net7.0\Improvement.dll
+C:\Users\USER\Desktop\Practicals\Projects\Renewalrate\Improvement\obj\Debug\net7.0\refint\Improvement.dll
+C:\Users\USER\Desktop\Practicals\Projects\Renewalrate\Improvement\obj\Debug\net7.0\Improvement.pdb
+C:\Users\USER\Desktop\Practicals\Projects\Renewalrate\Improvement\obj\Debug\net7.0\Improvement.genruntimeconfig.cache
+C:\Users\USER\Desktop\Practicals\Projects\Renewalrate\Improvement\obj\Debug\net7.0\ref\Improvement.dll
