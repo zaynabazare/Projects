@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\Desktop\\Practicals\\Projects\\GuidedProject\\Starter\\Starter.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Desktop\\Practicals\\Projects\\C#\\GuidedProject\\Starter\\Starter.csproj",
       "projectName": "Starter",
-      "projectPath": "C:\\Users\\USER\\Desktop\\Practicals\\Projects\\GuidedProject\\Starter\\Starter.csproj",
+      "projectPath": "C:\\Users\\USER\\Desktop\\Practicals\\Projects\\C#\\GuidedProject\\Starter\\Starter.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER\\Desktop\\Practicals\\Projects\\GuidedProject\\Starter\\obj\\",
+      "outputPath": "C:\\Users\\USER\\Desktop\\Practicals\\Projects\\C#\\GuidedProject\\Starter\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",

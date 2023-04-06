@@ -1,15 +1,20 @@
 ﻿
 
 // initialize variables - graded assignments 
-int currentAssignments = 5;
-string[] studentNames = {"Sophia","Andrew","Emma","Logan"};
+int examAssignments = 5;
+string[] studentNames = {"Sophia","Andrew","Emma","Logan", "Becky", "Chris", "Eric", "Gregor" };
 
 int [] studentScores = new int[6];
 
-int[] sophiaScores = {90,86,87,98,100};
-int[] andrewScores = {92,89,81,96,90};
-int[] emmaScores = {90,85,87,98,68};
-int[] loganScores = {90,95,87,88,96};
+int[] sophiaScores = {90,86,87,98,100,94,90};
+int[] andrewScores = {92,89,81,96,90,89};
+int[] emmaScores = {90,85,87,98,68,89,89,89};
+int[] loganScores = {90,95,87,88,96,96};
+int[] beckyScores = new int[] { 92, 91, 90, 91, 92, 92, 92 };
+int[] chrisScores = new int[] { 84, 86, 88, 90, 92, 94, 96, 98 };
+int[] ericScores = new int[] { 80, 90, 100, 80, 90, 100, 80, 90 };
+int[] gregorScores = new int[] { 91, 91, 91, 91, 91, 91, 91 };    
+
  Console.WriteLine($"Student \t Grade \n");
 
 foreach(string name in studentNames){
@@ -22,15 +27,34 @@ foreach(string name in studentNames){
     else if (name=="Emma"){
         studentScores=emmaScores;
     }
-    else{
+    else if(name=="Logan"){
         studentScores=loganScores;
     }
-    int studentSum = 0;
+    else if (name == "Becky")
+    studentScores = beckyScores;
+    else if (name == "Chris")
+    studentScores = chrisScores;
+    else if (name == "Eric")
+    studentScores = ericScores;
+    else if (name == "Gregor")
+    studentScores = gregorScores;
+    else
+    continue;
+    int extraAssignments = 0;
+    decimal studentSum = 0; 
     decimal studentAverage=0; 
+
     foreach (int score in studentScores){
-        studentSum +=score;
+        extraAssignments +=1;
+        if(extraAssignments<=examAssignments)
+             studentSum +=score;
+        
+        else
+            studentSum += (decimal)score /10;
+        
+       
     }
-    studentAverage = (decimal)studentSum/currentAssignments;
+    studentAverage = (decimal)studentSum/examAssignments;
     string studentGrade ="";
     if (studentAverage >= 97)
         studentGrade = "A+";
